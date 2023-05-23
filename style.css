@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.timerBtn {
+    width: 80px;
+    height: 30px;
+    border: 3px solid #000;
+    border-radius: 12px;
+    background-color: #394867;
+    color: white;
+    cursor: pointer;
+    font-family: consolas, monospace;
+    margin: 5px 10px 4px;
+}
+
+#timeDisplay {
+    font-size: 65px;
+    color: #FF6768;
+    font-family: consolas, monospace;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+#timeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 65%;
+    height: 150px;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 25px;
+    background-color: #17223B;
+}
